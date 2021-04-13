@@ -1,21 +1,21 @@
-public class vacuna {
+public class Vacuna {
 
 	private String nom;
 	private float efectivitat;
 	private int durada;
 
-	vacuna(String nom, float e, int d) {
+	Vacuna(String nom, float e, int d) {
 		this.nom = nom;
 		efectivitat = e;
 		durada = d;
 	}
 	
-	public vacuna(){
+	public Vacuna(){
 		this.nom = "";
 		this.efectivitat = 0;
 		this.durada = 0
 	}
-	public vacuna(vacuna v) {
+	public Vacuna(Vacuna v) {
 		this.nom = v.nom;
 		this.efectivitat = v.efectivitat;
 		this.durada = v.durada;
@@ -29,7 +29,7 @@ public class vacuna {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		vacuna other = (vacuna) obj;
+		Vacuna other = (Vacuna) obj;
 		if (durada != other.durada)
 			return false;
 		if (Float.floatToIntBits(efectivitat) != Float.floatToIntBits(other.efectivitat))
@@ -44,7 +44,7 @@ public class vacuna {
 
 	@Override
 	public String toString() {
-		return "vacuna [nom=" + nom + ", efectivitat=" + efectivitat + ", durada=" + durada + "]";
+		return "Vacuna [nom=" + nom + ", efectivitat=" + efectivitat + ", durada=" + durada + "]";
 	}
 	
 
