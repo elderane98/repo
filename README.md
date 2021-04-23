@@ -1,1 +1,1 @@
-“Primer fitxer al primer repositori de <Joaquim Febas> ”
+“Primer fitxer al primer repositori de Joaquim Febas ”
